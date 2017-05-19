@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'sQcRpE_JBmbJ49P9Cj0AO9qPe7cD2m-wIuFQPHFBRnxnhK7wsuvFtQ2oAbfv6C71iWZCCR_chA';
+$settings['hash_salt'] = 'nifIViwDwdAqlWoOZhCNffcvAj_PYKbCsItZb4HKKcif9quRekeW8woDwlG5W0vbVKCBo71Z1A';
 
 /**
  * Deployment identifier.
@@ -764,7 +764,7 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupal8',
+  'database' => 'drupal8c',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -774,5 +774,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config__-VEBDbee1OI4kKGJ8EpSxwF8OFDb13tKI52PPOq7kpW8UTrt6F1TZhp7k9t4ufKj5-JxkkeCg/sync';
+$config_directories['sync'] = 'sites/default/files/config_K96ZiN7ZUU-ZKrRKjymYHLTkmGHmtHCWTdawglSKZG4e3wFqc6n7pn4xCghIHrRGep2CtonCdA/sync';
 $config['system.logging']['error_level'] = 'verbose';
